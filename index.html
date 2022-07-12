@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./config.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+  
+    
+</head>
+<body>
+    <h1 class="text-center block font-bold pt-60 text-3xl text text-white">my count down app</h1>
+    <!--<h2>0m : 00s </h2>-->
+    <div class="flex flex-row w-full justify-center items-center h-48 mt-15">
+        
+        <div class="flex w-16 justify-evenly items-end mr-20">
+            <h2 class="text-7xl font-bold tracking-widest text-white" id="countMin">00</h2>
+            <span class="text-3xl text-white">min</span>
+        </div>
+        <div class="flex w-16 justify-evenly items-end ">
+            <h2 class="text-7xl font-bold tracking-widest countSec text-white">00</h2>
+            <span class="text-3xl text-white">s</span>
+        </div>
+    </div>
+    <div class="flex justify-center">
+        <button type="button"
+        onclick="countingStart()"
+        class="inline-flex mr-8 items-center px-3 py-1.5 border border-transparent text-xl font-medium rounded-full shadow-sm ">
+       start
+    </button>
+    <button type="button"
+        onclick="countingStop()"
+        class="inline-flex items-center px-3 py-1.5 border border-transparent text-xl font-medium rounded-full shadow-sm  ">
+       stop
+    </button>
+    <audio
+    controls src="./AlarmBuzzer_uyhwM_03.wav" id="alarm">
+    </audio>
+    </div>
+    <script async src="./index.js"></script>
+</body>
+</html>
+
+
+
+
