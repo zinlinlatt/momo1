@@ -1,7 +1,8 @@
 # momo1
 
 quote generator design
- ##![pg1](https://user-images.githubusercontent.com/98326555/178493248-7ea7cb68-cccc-498f-a63d-16e0538033c9.PNG)
+ ##![pg2](https://user-images.githubusercontent.com/98326555/178494367-805d8860-39a7-45f2-98ac-7a190e7f1dc4.PNG)
+
 
 Built 
 html
